@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="AWSGen:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/AWSGen_war</output-path>
+    <root id="archive" name="AWSGen_war.war">
+      <element id="artifact" artifact-name="AWSGen:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="JSTL TagLibs 1.2" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="library" level="application" name="bootstrap" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
